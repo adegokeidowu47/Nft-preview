@@ -1,0 +1,136 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: hsl(217, 54%, 11%);
+}
+.container,#Etherium,.about,.attribution {
+    display: flex;
+    align-items: center;
+}
+.container{
+    justify-content: space-between;
+    width: 350px;
+    height: auto;
+    padding: 15px;
+    margin: 5% auto;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px solid white;
+}
+
+img{
+    margin: 10px 0;
+    border-radius: 10px;
+}
+img#img1{
+    width:100%;
+     height: auto;
+     transition: all .5s linear;
+}
+h2,span{
+    color: hsl(0, 0%, 100%);
+}
+
+h2{
+    font: outfit;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 2px 0;
+}
+#eql,#days,#JW{
+    margin: 10px 0;
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+#days{
+    font-size: 13px;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    margin-right: auto;
+}
+#icon-ethereum,#icon{
+    margin-right: 5px;
+}
+#Etherium{
+    justify-content: space-between;
+
+}
+hr{
+    opacity: .5;
+    margin-top: 5px;
+    color: hsl(215, 32%, 27%);
+}
+#icon{
+    width: 15px;
+    height: 15px;
+}
+#avatar{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.about{
+    padding: 8px;
+    margin-bottom: -10px;
+}
+span{
+    font-family: inherit;
+    margin-left: 5px;
+}
+span#Jules:hover,
+h2:hover,
+img#img1:hover{
+    cursor: pointer;
+}
+img#img1:hover{
+    content: url(icon-view.svg);
+    background-image: url(image-equilibrium.jpg);
+    background-size: cover;
+    background-color: hsl(178, 100%, 50%, .5);
+    background-blend-mode: lighten;
+    object-fit: scale-down;
+}
+span#Jules:hover,
+h2:hover{
+    color:  hsl(178, 100%, 50%);
+}
+
+.attribution {
+     font-size: 11px;
+     flex-direction: row;
+     justify-content: center;
+     margin-bottom: 20px;
+     color: #fff;
+     }
+span#coded-by{
+    margin-left: -10px auto;
+}    
+.attribution a {
+     color: hsl(228, 38%, 80%);
+     text-decoration: none;
+     margin-left: 5px;
+}
+@media screen and (max-width:375px){
+    .container{
+        width: 85%;
+        height: auto;
+        margin: 15% auto;
+    }
+    #eql,#days,#JW{
+        font-size: 13px;
+        color: hsl(215, 51%, 70%);
+        }
+    #eql{
+        width: 80%;
+        font-size: 15px;
+    }
+}
