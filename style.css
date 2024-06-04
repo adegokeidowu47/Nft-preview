@@ -1,9 +1,14 @@
-@import url('https://fonts.google.com/specimen/Outfit');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  
 }
 body{
 
@@ -47,7 +52,7 @@ h2{
     margin: 10px 0;
     font-family: outfit;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 22px;
     color: hsl(215, 51%, 70%);
 }
 #days{
@@ -135,4 +140,5 @@ span#coded-by{
     }
     .attribution{
         font-size:8px;
+    }
 }
